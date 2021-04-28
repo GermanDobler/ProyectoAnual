@@ -1,0 +1,27 @@
+body {
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.catalogo {
+    color: mediumorchid;
+    font-size: 50px;
+    font-style: unset;
+}
+
+div {
+    color: lightseagreen;
+    font-size: 25px;
+    font-style: oblique;
+    margin: 30px;
+}
+
+a {
+    margin-top: 90%;
+    margin-left: 95%;
+}
+
+header {
+    margin-left: 37%;
+    margin-top: 50px;
+}
