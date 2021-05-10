@@ -3,10 +3,9 @@ body {
     background-repeat: no-repeat;
 }
 
-.catalogo {
-    color: mediumorchid;
-    font-size: 50px;
-    font-style: unset;
+header {
+    padding: 0;
+    margin: center;
 }
 
 div {
@@ -16,12 +15,54 @@ div {
     margin: 30px;
 }
 
-a {
-    margin-top: 90%;
-    margin-left: 95%;
+.menu {
+    list-style: none;
+    padding: 0;
+    background: lightseagreen;
+    width: 90%;
+    max-width: 150px;
+    margin: left;
 }
 
-header {
-    margin-left: 37%;
-    margin-top: 50px;
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    text-align: aside;
+}
+
+.menu li a:hover {
+    color: #092327;
+    background: #ef8354;
+}
+
+.submenu li a:hover {
+    color: #092327;
+    background: #ef8354;
+}
+
+.submenu {
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background: lightseagreen;
+    width: 100%;
+    display: none;
+}
+
+.submenu li a {
+    position: relative;
+    display: block;
+    padding: 20;
+    font-family: arial, helvetica;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu {
+    list-style: none;
+    display: block;
 }
