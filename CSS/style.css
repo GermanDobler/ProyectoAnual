@@ -1,68 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body {
     background-size: 100%;
-    background-repeat: no-repeat;
+    font-family: arial, helvetica;
 }
 
-header {
-    padding: 0;
-    margin: center;
+
+/*centrar imagen*/
+
+header .center {
+    display: flex;
+    justify-content: center;
+    background: #ffdcbc;
 }
 
-div {
-    color: lightseagreen;
-    font-size: 25px;
-    font-style: oblique;
-    margin: 30px;
+header .center .img {
+    width: 300px;
+    height: 100px;
+}
+
+
+/*ACTUALIZACION DEL MENU*/
+
+.navegacion {
+    padding: 0px;
+    background: #ffdcbc;
+}
+
+
+/*MENU*/
+
+li img {
+    width: 60px;
+    padding: 0px;
 }
 
 .menu {
     list-style: none;
     padding: 0;
-    background: lightseagreen;
+    background: #ffdcbc;
     width: 90%;
-    max-width: 150px;
-    margin: left;
+    max-width: 305px;
+    margin: auto;
 }
 
 .menu li a {
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 20px;
     display: block;
 }
 
 .menu li {
-    text-align: aside;
+    display: inline-block;
+    text-align: center;
 }
 
 .menu li a:hover {
-    color: #092327;
+    color: white;
     background: #ef8354;
+    transition: all 1s;
 }
 
-.submenu li a:hover {
-    color: #092327;
-    background: #ef8354;
-}
+
+/*SUBMENU*/
 
 .submenu {
     padding: 0;
     list-style: none;
     text-decoration: none;
-    background: lightseagreen;
+    background: #ffdcbc;
     width: 100%;
     display: none;
 }
 
-.submenu li a {
-    position: relative;
-    display: block;
-    padding: 20;
-    font-family: arial, helvetica;
-    text-decoration: none;
+.submenu li a:hover {
+    color: white;
+    background: #ef8354;
 }
 
 .menu li:hover .submenu {
+    padding: 0px;
     list-style: none;
-    display: block;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    max-width: 120px;
 }
