@@ -40,8 +40,8 @@ li img {
     list-style: none;
     padding: 0;
     background: #ffdcbc;
-    width: 90%;
-    max-width: 305px;
+    width: 100%;
+    max-width: 500px;
     margin-top: auto;
 }
 
@@ -68,7 +68,6 @@ li img {
 
 .submenu {
     padding: 0;
-    list-style: none;
     text-decoration: none;
     background: #ffdcbc;
     width: 100%;
@@ -80,15 +79,6 @@ li img {
     background: #ef8354;
 }
 
-.menu li:hover .submenu {
-    padding: 0px;
-    list-style: none;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    max-width: 105px;
-}
-
 .menu .contactos:hover .submenu {
     padding: 0px;
     list-style: none;
@@ -98,13 +88,13 @@ li img {
     max-width: 112px;
 }
 
-.menu .catalogo:hover .submenu {
+.menu .Catalogo:hover .submenu {
     padding: 0px;
     list-style: none;
     position: absolute;
     display: flex;
     flex-direction: column;
-    max-width: 105px;
+    max-width: 104px;
 }
 
 
