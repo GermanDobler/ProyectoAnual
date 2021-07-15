@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 
 <head>
@@ -7,43 +7,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="icon" href=img/imgmartina.ico>
+    <script src="js/slider.js"></script>
     <title>Aqua Make Up</title>
 </head>
 
-
-
-<body background="img/LOL.jpg">
-    <header>
-        <div class="center">
-            <img class="img" src="img/cabevera.jpg">
-        </div>
-        <div>
-            <nav class="navegacion">
+<body>
+<header class="main-header">
+    <div class="contenedor contenedor--flex">
+        <div class="main-header__container">
+            <h1 class="main-title">Aqua Make Up</h1>
+            <span class="icon-menu fas fa-bars" id="btn-menu"></span>
+            <nav class="main-nav" id="main-nav">
                 <ul class="menu">
-                    <li><a href="index.html">Inicio</a></li>
-                    <li class="catalogo"><a href="Catalogos.html">Catalogo</a>
-                        <ul class="submenu">
-                            <li><a href="#">Maquillaje</a></li>
-                            <li><a href="#">Cositaloca</a></li>
-                            <li><a href="#">Perfume</a></li>
-                        </ul>
-                    </li>
-                    <li class="contactos"><a href="#">Contactos</a>
-                        <ul class="submenu">
-                            <li>
-                                <a href="https://www.instagram.com/aquamakeup9/"><img src="img/igr.jpg"></a>
-                            </li>
-                            <li>
-                                <a href="https://www.AquaMakeup9@gmail.com"><img src="img/gmailr.jpg"></a>
-                            </li>
-                        </ul>
-                    </li>
+                    <li class="menu__item">Inicio<a href="#" class="menu__link"></a></li>
+                    <li class="menu__item">Acerca<a href="#" class="menu__link"></a></li>
+                    <li class="menu__item">Shop<a href="#" class="menu__link"></a></li>
+                    <li class="menu__item">Contacto<a href="#" class="menu__link"></a></li>
                 </ul>
             </nav>
         </div>
-    </header>
+        <div class="main-header__container">
+            <span>ayuda</span>
+            <p class="texto_header"><i class="fas fa-phone"></i>contacto 3821739876</p>
+        </div>
+        <div class="main-header__container">
+            <i class="fas fa-user"></i>
+            <a href="" class="main-header__btn">Compras <i class="fas fa-shopping-cart"></i></a>
+            <input type="busqueda" class="main-header__input" placeholder="Buscar Productos"><i class="fas fa-search"></i>
+        </div>
+    </div>
+</header>
+<div class="slider">
+    <ul class="slides">
+        <li>
+            <img src="img/img1.jpg" alt="" />
+            <div class="contenido_slider">
+                <h2 class="title_slider">Lo Mas Nuevo</h2>
+                <p class="slider_txt"></p>
+                <a href="" class="slider_link">COMPRAR AHORA</a>
+            </div>
+        </li>
+        <li><img src="img/img2.jpg" alt="" /><div>imagen2</div></li>
+        <li><img src="img/img3.jpg" alt="" /><div>imagen3</div></li>
+        <li><img src="img/img4.jpg" alt="" /><div>imagen4</div></li>
+        <li><img src="img/img5.jpg" alt="" /><div>imagen5</div></li>
+    </ul>
+    <div class="boton">
+        <div class="next">&#10095;</div>
+        <div class="prev">&#10094;</div>
+    </div>
 
+</div>
+    <section>
+    <main class="main">
+        <h2 class="main-title">Nuevos Productos</h2>
+        <section class="contenedor-productos">
+        <div class="productos">
+    </main>
+    </section>
 </body>
 
 </html>
