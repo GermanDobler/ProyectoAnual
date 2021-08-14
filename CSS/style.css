@@ -59,10 +59,9 @@ background: rgba(0, 0, 0, 0.5);
 }
 .slider ul li .contenido_top {
     position: absolute;
-    top: 20%;
+    top: 0%;
     left: 25%;
     color: white;
-    transform: translateX(-50%), translateY(-50%);
     width: 50%;
     text-align: center;
 }
