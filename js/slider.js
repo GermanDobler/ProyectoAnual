@@ -1,22 +1,20 @@
 window.addEventListener('load', () => {
 
 
-    // initial slide
+    // inicial
     let slide = 1;
 
-    // total slides
+    // total de slide
     let slides = document.querySelectorAll(".slider ul li");
     total = slides.length;
 
-    // show first side
+    // mostrar primer lado
     showSlide(1);
 
     next = document.querySelector(".next");
     prev = document.querySelector(".prev")
 
-    /**
-     * event next button
-     */
+    /* siguiente*/
     next.addEventListener('click', (evt) => {
         evt.preventDefault();
         slide++;
@@ -24,9 +22,7 @@ window.addEventListener('load', () => {
         showSlide(slide);
     })
 
-    /** 
-     * event prev button
-     */
+    /*previo*/
     prev.addEventListener("click", (evt) => {
         evt.preventDefault();
         slide--;
@@ -49,3 +45,4 @@ window.addEventListener('load', () => {
     }
 
 })
+/*https://desarrollo.artegrafico.net/laboratory/javascript/examples/effects/slider/*/
