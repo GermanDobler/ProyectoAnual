@@ -50,7 +50,7 @@ background: rgba(0, 0, 0, 0.5);
 }
 .slider ul li .contenido_slider {
     position: absolute;
-    top: 45%;
+    top: 46%;
     left: 25%;
     color: white;
     transform: translateX(-50%), translateY(-50%);
@@ -61,9 +61,27 @@ background: rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 0%;
     left: 25%;
-    color: white;
+    color: rgb(255, 255, 255);
     width: 50%;
     text-align: center;
+}
+.slider ul li .contenido_menu {
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    color: white;
+    transform: translateX(-50%), translateY(-50%);
+    
+    text-align: center;
+}
+.fa-bars{
+    height: 0px;
+    width: 50px;
+    font-size: 30px;
+}
+.fa-bars:hover{
+    color: black;
+    cursor: pointer;
 }
 .header-title{
     font-size: 60px;
