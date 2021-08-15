@@ -43,23 +43,20 @@ background: rgba(0, 0, 0, 0.5);
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border-radius: 5px;
 }
 .slider ul li .contenido_slider {
     position: absolute;
-    top: 46%;
+    top: 50%;
     left: 25%;
     color: white;
-    transform: translateX(-50%), translateY(-50%);
     width: 50%;
     text-align: center;
 }
 .slider ul li .contenido_top {
     position: absolute;
-    top: 0%;
-    left: 25%;
+    top: 0px;
+    left: 150px;
     color: rgb(255, 255, 255);
-    width: 50%;
     text-align: center;
 }
 
@@ -69,19 +66,25 @@ background: rgba(0, 0, 0, 0.5);
     left: 0%;
     color: white;
     text-align: center;
+    
 }
 .slider ul li .btn-menu, .fa-bars{
     position: absolute;
-    top: 29px;
-    left: 50px;
+    top: 30px;
+    left: 20px;
     font-size: 40px;
 }
-.slider ul li .navegacion{
+.slider ul li .navegacion {
     position: absolute;
-    top: 10%;
+    top: 70px;
     left: 70%;
+}
+.slider ul li .a_nav{
+    text-decoration: none;
     color: white;
     text-align: center;
+    font-size: 30px;
+    cursor: pointer;
 }
 
 .fa-bars:hover{
@@ -187,10 +190,19 @@ font-weight: bold;
     margin-top: 10px;
 }
 .fa-cart-plus:hover{
-
 color: orangered;
 cursor: pointer;
 }
+/*Menu lateral*/
+#btn-menu{
+    display: none;
 
+}
+.cont-menu{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+}
 
 
