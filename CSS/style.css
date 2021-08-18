@@ -149,15 +149,7 @@ color: black;
 }
 
 /* animación slider */
-.slider ul li {
-    animation-name: fade;
-    animation-duration: 2.5s;
-}
-  
-@keyframes fade {
-    from {opacity: .2} 
-    to {opacity: 1}
-}
+
 
 /*https://desarrollo.artegrafico.net/laboratory/javascript/examples/effects/slider/*/
 
