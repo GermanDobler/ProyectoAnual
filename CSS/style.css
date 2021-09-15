@@ -148,9 +148,6 @@ color: black;
     color: white;
 }
 
-/* animación slider */
-
-
 /*https://desarrollo.artegrafico.net/laboratory/javascript/examples/effects/slider/*/
 
 /*ESTILOS PRODUCTOS*/
@@ -160,7 +157,6 @@ grid-template-columns: repeat(4,1fr);
 grid-gap: 15px;
 }
 .producto{
-border: 1px solid black;
 padding: 20px;
 text-align: center;
 }
