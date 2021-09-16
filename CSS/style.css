@@ -105,12 +105,12 @@ background: rgba(0, 0, 0, 0.5);
 }
 .slider ul li .slider_link {
 display: flex;
-border: 2px solid orangered;
+border: 1px solid gray;
 color: white;
 padding: 10px;
 text-align: center;
 text-decoration: none;
-width: 150px;
+width: 140px;
 margin: 10px auto;
 }
 .slider ul li .slider_link:hover {
