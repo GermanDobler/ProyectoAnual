@@ -200,3 +200,12 @@ height: 50px;
     background-color:black;
     color: white;
 }
+.iconos_footer{
+    text-decoration: none;
+    color: gray;
+}
+.iconos_footer:hover{
+    text-decoration: none;
+    color: black;
+    background: orangered;
+}
