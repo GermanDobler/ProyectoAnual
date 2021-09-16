@@ -88,10 +88,6 @@ background: rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
 
-.fa-bars:hover{
-    color: black;
-    cursor: pointer;
-}
 .header-title{
     font-size: 60px;
 }
@@ -171,8 +167,8 @@ object-fit: cover;
     text-align: center;
 }
 .producto_precio{
-color: orangered;
-font-weight: bold;
+    color: orangered;
+    font-weight: bold;
 }
 .fa-cart-plus{
     display: block;
@@ -186,9 +182,7 @@ cursor: pointer;
 width: 50px;
 height: 50px;
 }
-.footer{
-background-color: gray;
-}
+
 /*sticky*/
 
 
@@ -199,4 +193,10 @@ background-color: gray;
 	top:0;
     background: white;
 	width:100%;
+}
+/*Footer*/
+.footer{
+    display: block;
+    background-color:black;
+    color: white;
 }
