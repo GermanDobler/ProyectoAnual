@@ -1,6 +1,7 @@
 window.addEventListener('load', () => {
 
 
+    
     // inicial
     let slide = 1;
 
@@ -15,13 +16,13 @@ window.addEventListener('load', () => {
     prev = document.querySelector(".prev")
 
     /* siguiente*/
-    next.addEventListener('click', (evt) => {
-        evt.preventDefault();
-        slide++;
-        if (slide > total) { slide = 1; }
-        showSlide(slide);
-    })
-
+        next.addEventListener('click', (evt) => {
+            evt.preventDefault();
+            slide++;
+            if (slide > total) { slide = 1; }
+            showSlide(slide);
+        })
+    
     /*previo*/
     prev.addEventListener("click", (evt) => {
         evt.preventDefault();
@@ -43,6 +44,7 @@ window.addEventListener('load', () => {
             (i == n) ? slides[n].style.display = "block" : slides[i].style.display = "none";
         }
     }
+    
 
 })
 /*https://desarrollo.artegrafico.net/laboratory/javascript/examples/effects/slider/*/
