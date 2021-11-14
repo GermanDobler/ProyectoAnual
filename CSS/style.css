@@ -1,235 +1,245 @@
 *{
- box-sizing: border-box;
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-} 
-body{
-    padding: 0;
-    margin:0;
-} 
-img{
-    display:block;
-    width: 100%;
-}
-.nombremake{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   } 
+   body{
+       padding: 0;
+       margin:0;
+       background: #FFE699;
+   } 
+   img{
+       display:block;
+       width: 100%;
+   }
+   .card-body{
+       background: #F3F0D7;
+   }
+   .shop_background{
+    background: #F6D7A7;
+   }
+   .nombremake{
+       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   }
+   .contenedor_contenedores{
+    background: #F6D7A7;
+   }
+   /*slider*/
+   .slider {
+       margin-top: 0px;
+       position: relative;
+   }
+   .slider:before {
+   
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(0, 0, 0, 0.5);
+   }
 
-/*slider*/
-.slider {
-    margin-top: 0px;
-    position: relative;
-}
-.slider:before {
-
-position: absolute;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-background: rgba(0, 0, 0, 0.5);
-}
-
-.slider ul {
-    position: relative;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;    
-}
-
-.slider ul li  {
-    position: relative;
-    display: none;
-    height:975px;
-}
-
-.slider ul li img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-.slider ul li .contenido_slider {
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    color: white;
-    width: 50%;
-    text-align: center;
-}
-.slider ul li .contenido_top {
-    position: absolute;
-    top: 0px;
-    left: 300px;
-    color: rgb(255, 255, 255);
-    text-align: center;
-}
-
-.slider ul li .contenido_menu{
-    position: absolute;
-    top: 0px;
-    left: 0%;
-    color: white;
-    text-align: center;
-    
-}
-.slider ul li .btn-menu, .fa-bars{
-    position: absolute;
-    top: 30px;
-    left: 20px;
-    font-size: 40px;
-}
-.slider ul li .navegacion {
-    position: absolute;
-    top: 70px;
-    left: 70%;
-}
-.slider ul li .a_nav{
-    text-decoration: none;
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    cursor: pointer;
-}
-
-.header-title{
-    font-size: 60px;
-}
-.slider ul li .titulo_slider {
-    font-size: 2.5em;
-    margin: 0;
-}
-.slider ul li .slider_txt {
-    text-align: center;
-    margin: 5px 0;
-}
-.slider ul li .slider_link {
-display: flex;
-border: 1px solid gray;
-color: white;
-padding: 10px;
-text-align: center;
-text-decoration: none;
-width: 140px;
-margin: 10px auto;
-}
-.slider ul li .slider_link:hover {
-background: orangered;
-color: black;
-}
-/* boton */
-.slider .boton  {
-    position: absolute;
-    top: 50%;
-    width:  100%;
-}
-.slider .boton .next {
-    font-size: 2rem;
-    right: 0;
-    position: absolute;
-    cursor: pointer;
-    width: 50px;
-    text-align: center;
-}    
-.slider .boton .prev {
-    font-size: 2rem;
-    left: 0;
-    position: absolute;
-    cursor: pointer;
-    width: 50%;
-    width: 50px;
-    text-align: center;
-}   
-.slider .boton .next:hover {
-    background: black;
-    color: white;
-}
-.slider .boton .prev:hover {
-    background: black;
-    color: white;
-}
-
-/*https://desarrollo.artegrafico.net/laboratory/javascript/examples/effects/slider/*/
-
-/*ESTILOS PRODUCTOS*/
-.container-productos{
-display: grid;
-grid-template-columns: repeat(4,1fr);
-grid-gap: 15px;
-}
-.producto{
-padding: 20px;
-text-align: center;
-}
-.producto_img{
-width: 100%;
-height: 100%;
-height: 400px;
-object-fit: cover;
-}
-.producto_titulo{
-    text-align: center;
-}
-.producto_precio{
-    color: orangered;
-    font-weight: bold;
-}
-.fa-cart-plus{
-    display: block;
-    margin-top: 10px;
-}
-.fa-cart-plus:hover{
-color: orangered;
-cursor: pointer;
-}
+   .slider ul {
+       position: relative;
+       list-style-type: none;
+       margin: 0;
+       padding: 0;    
+   }
+   
+   .slider ul li  {
+       position: relative;
+       display: none;
+       height: 900px;
+   }
+   
+   .slider ul li img {
+       height: 100%;
+       width: 100%;
+       object-fit: cover;
+   }
+   .slider ul li .contenido_slider {
+       position: absolute;
+       top: 50%;
+       left: 25%;
+       color: white;
+       width: 50%;
+       text-align: center;
+   }
+   .slider ul li .contenido_top {
+       position: absolute;
+       top: 0px;
+       left: 300px;
+       color: rgb(255, 255, 255);
+       text-align: center;
+   }
+   
+   .slider ul li .contenido_menu{
+       position: absolute;
+       top: 0px;
+       left: 0%;
+       color: white;
+       text-align: center;
+       
+   }
+   .slider ul li .btn-menu, .fa-bars{
+       position: absolute;
+       top: 30px;
+       left: 20px;
+       font-size: 40px;
+   }
+   .slider ul li .navegacion {
+       position: absolute;
+       top: 70px;
+       left: 70%;
+   }
+   .slider ul li .a_nav{
+       text-decoration: none;
+       color: white;
+       text-align: center;
+       font-size: 30px;
+       cursor: pointer;
+   }
+   
+   .header-title{
+       font-size: 60px;
+   }
+   .slider ul li .titulo_slider {
+       font-size: 2.5em;
+       margin: 0;
+   }
+   .slider ul li .slider_txt {
+       text-align: center;
+       margin: 5px 0;
+   }
+   .slider ul li .slider_link {
+   display: flex;
+   border: 1px solid gray;
+   color: white;
+   padding: 10px;
+   text-align: center;
+   text-decoration: none;
+   width: 130px;
+   margin: 10px auto;
+   }
+   .slider ul li .slider_link:hover {
+   background: orangered;
+   color: black;
+   }
+   /* boton */
+   .slider .boton  {
+       position: absolute;
+       top: 50%;
+       width:  100%;
+   }
+   .slider .boton .next {
+       font-size: 2rem;
+       right: 0;
+       position: absolute;
+       cursor: pointer;
+       width: 50px;
+       text-align: center;
+   }    
+   .slider .boton .prev {
+       font-size: 2rem;
+       left: 0;
+       position: absolute;
+       cursor: pointer;
+       width: 50%;
+       width: 50px;
+       text-align: center;
+   }   
+   .slider .boton .next:hover {
+       background: black;
+       color: white;
+   }
+   .slider .boton .prev:hover {
+       background: black;
+       color: white;
+   }
+   
+   /*https://desarrollo.artegrafico.net/laboratory/javascript/examples/effects/slider/*/
+   
+   /*ESTILOS PRODUCTOS*/
+   .container-productos{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   grid-gap: 15px;
+   }
+   .producto{
+   padding: 20px;
+   text-align: center;
+   }
+   .producto_img{
+   width: 100%;
+   height: 100%;
+   height: 400px;
+   object-fit: cover;
+   }
+   .producto_titulo{
+       text-align: center;
+   }
+   .producto_precio{
+       color: orangered;
+       font-weight: bold;
+   }
+   .fa-cart-plus{
+       display: block;
+       margin-top: 10px;
+   }
+   .fa-cart-plus:hover{
+   color: orangered;
+   cursor: pointer;
+   }
 .icono{
-width: 50px;
-height: 50px;
-}
-
-/* ParaElNavBar*/
+   width: 50px;
+   height: 50px;
+   }
+   
+   /* ParaElNavBar*/
 .sticky {
-	position:sticky;
-	z-index:1000;
-	top:0;
-    background: rgb(255, 255, 255);
-	width:100%;
-    border-bottom: border 1px #948e8e;
-}
-/*Footer*/
-.footer{
-    display: block;
-    background-color:black;
-    color: white;
-}
-.iconos_footer{
-    text-decoration: none;
-    color: gray;
-}
-.iconos_footer:hover{
-    text-decoration: none;
-    color: black;
-    background: orangered;
-}
-/*Whatsapp*/
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-    font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-    z-index:100;
-}
+    position:sticky;
+    z-index:1000;
+       top:0;
+       background: rgb(255, 255, 255);
+       width:100%;
+       border-bottom: border 1px #948e8e;
+       background: #FEF5ED;
+   }
+   /*Footer*/
+   .footer{
+       display: block;
+       background: #FF9B6A;
+       color: #000000;
+   }
+   .iconos_footer{
+       text-decoration: none;
+       color: #000000;
+   }
+   .iconos_footer:hover{
+       text-decoration: none;
+       color: #000000;
+       background: orangered;
+   }
+   /*Whatsapp*/
+   .float{
+       position:fixed;
+       width:60px;
+       height:60px;
+       bottom:40px;
+       right:40px;
+       background-color:#25d366;
+       color:#FFF;
+       border-radius:50px;
+       text-align:center;
+       font-size:30px;
+       box-shadow: 2px 2px 3px #999;
+       z-index:100;
+   }
 .float:hover {
-	text-decoration: none;
-	color: #25d366;
-  background-color:#fff;
-}
-
+        text-decoration: none;
+        color: #25d366;
+        background-color:#fff;
+   }
+   
 .my-float{
-	margin-top:16px;
-}
+       margin-top:16px;
+   }
